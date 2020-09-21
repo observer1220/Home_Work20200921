@@ -15,9 +15,19 @@ function BMICalculator() {
     console.log(BMI);
 }
 
+// 功能函式：加法累計
+let sum=0;
+function addTable() {
+    for (i = 0; i < 11; i++) {
+        sum+=i
+        console.log(sum)
+    }
+}
+
 function init() {
     multiTable();
     BMICalculator();
+    addTable()
 }
 
 init()
