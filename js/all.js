@@ -7,8 +7,17 @@ function multiTable() {
     }
 }
 
+// 功能函式：BMI計算機
+function BMICalculator() {
+    let h = 178 / 100; // h = height
+    let w = 70; // w = weight
+    let BMI = (w / (h * h)).toFixed(1);
+    console.log(BMI);
+}
+
 function init() {
     multiTable();
+    BMICalculator();
 }
 
 init()
